@@ -18,7 +18,7 @@ import category_encoders as ce
 #         print(os.path.join(dirname, filename))
         
 
-data = '/Users/asingla/Documents/development/AI projects/Salesforce/practice models/dataset/adult.csv'
+data = '<file path>'
 df = pd.read_csv(data, header=None, sep=',')
 # print(df.shape)
 
