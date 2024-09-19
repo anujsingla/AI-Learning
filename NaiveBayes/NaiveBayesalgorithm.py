@@ -9,7 +9,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import RobustScaler
 import category_encoders as ce
 
-data = '/Users/asingla/Documents/development/AI projects/Salesforce/practice models/dataset/adult.csv'
+data = '<file path>'
 df = pd.read_csv(data, header=None, sep=',')
 print(df.shape)
 
