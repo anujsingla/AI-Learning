@@ -9,10 +9,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import RobustScaler
 import category_encoders as ce
 
-
-data = '<file path>'
+data = '/Users/asingla/Documents/development/AI projects/Salesforce/practice models/dataset/adult.csv'
 df = pd.read_csv(data, header=None, sep=',')
-# print(df.shape)
+print(df.shape)
 
 # print(df.head())
 col_names = ['age', 'workclass', 'fnlwgt', 'education', 'education_num', 'marital_status', 'occupation', 'relationship',
